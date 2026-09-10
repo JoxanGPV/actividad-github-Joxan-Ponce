@@ -1,0 +1,4 @@
+Joxan Gabriel Ponce Vazquez
+09/09/2026
+Objetivo de la actividad: Que el alumno practique el flujo completo de trabajo en Github partiendo desde cero: crear un nuevo repositorio, clonarlo, trabajar en una rama, realizar cambios y generar un Pull Request(PR)
+¿Que es un Pull Request? Es una propuesta formal enviada a los administradores de un proyecto de software para que revisen, discutan e integren los cambios realizados en una rama de codigo.
