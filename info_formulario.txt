@@ -1,0 +1,48 @@
+Parte 1 Investigacion
+Investiga para que sirven los siguientes elementos:
+<form>: Es el contenedor principal. Agrupa todos los controles interactivos y define cómo y a dónde se enviarán los datos recopilados (usualmente a un servidor).
+
+<label>: Define una etiqueta descriptiva para un campo. Es crucial para la accesibilidad (los lectores de pantalla la leen) y la usabilidad (si haces clic en la etiqueta, se activa automáticamente el campo de entrada asociado).
+
+<input>: Es el control más versátil de los formularios. Crea diferentes tipos de campos interactivos donde el usuario puede ingresar datos. Su apariencia cambia drásticamente dependiendo de su atributo type.
+
+<button>: Crea un botón interactivo. Puede usarse para enviar los datos del formulario (type="submit"), reiniciarlo (type="reset") o ejecutar acciones personalizadas con JavaScript (type="button").
+
+Investiga para que sirven los siguientes <input>:
+
+- text	Campo de texto de una sola línea (es el valor por defecto).	Nombres, ciudades, búsquedas.
+
+- email	Campo de texto que el navegador valida automáticamente para asegurarse de que tenga formato de correo electrónico (con un @ y un dominio).	Direcciones de correo.
+
+- password	Campo de texto que oculta los caracteres ingresados (usualmente reemplazándolos con puntos o asteriscos) por seguridad.	Contraseñas, pines.
+
+- number	Campo que solo acepta números. En la mayoría de navegadores muestra pequeñas flechas laterales para aumentar o disminuir el valor.	Edades, cantidades de productos.
+
+- date	Abre un calendario interactivo nativo del sistema operativo para seleccionar año, mes y día.	Fechas de nacimiento, reservas.
+
+- radio	Botón de opción circular. Si agrupas varios compartiendo el mismo atributo name, el usuario solo podrá seleccionar una opción del grupo.	Método de pago, talla de ropa.
+
+- checkbox	Casilla de verificación cuadrada. Son independientes entre sí, por lo que el usuario puede seleccionar múltiples opciones a la vez.	Intereses, aceptar términos y condiciones.
+
+- file	Abre el explorador de archivos para que el usuario pueda subir documentos, imágenes, etc.	Subir un PDF, elegir foto de perfil.
+
+- color	Muestra una paleta de colores o selector visual, devolviendo el código hexadecimal (ej. #ff0000) del color elegido.	Elegir un tema, personalizar un perfil.
+
+- range Muestra un control deslizante (slider) horizontal. Es ideal cuando el valor exacto no es tan importante como la proporción.	Ajustar volumen, rango deZ
+
+Explica brevemente para que sirven los atributos:
+
+
+- id	Es un identificador único para el elemento en toda la página. Es fundamental para conectar un <label> con su <input> respectivo (usando el atributo for en el label).
+
+- name	Es el nombre de la variable bajo la cual se enviará el dato al servidor. En los <input type="radio">, sirve para agrupar las opciones (solo se puede elegir una por name).
+
+- value	Define el valor por defecto que ya viene escrito en el campo, o el valor exacto que se enviará al servidor si el usuario selecciona una opción (muy usado en radio y checkbox).
+
+- placeholder	Es un texto de ayuda temporal que aparece en gris dentro del campo cuando está vacío (ej. "Escribe tu correo aquí"). Desaparece en cuanto el usuario empieza a escribir.
+
+- required	Es una regla de validación. Obliga al usuario a llenar o marcar ese campo; de lo contrario, el navegador bloqueará el envío del formulario.
+
+- min	Establece el límite inferior permitido. Sirve para números (el número más bajo), rangos, o fechas (la fecha más antigua seleccionable).
+
+- max	Establece el límite superior permitido. Sirve para números (el número más alto), rangos, o fechas (la fecha más lejana seleccionable).
